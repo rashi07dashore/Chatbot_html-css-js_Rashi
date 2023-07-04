@@ -5,7 +5,7 @@ const chatbotToggler = document.querySelector(".chatbot-toggler");
 const chatbotCloseBtn = document.querySelector(".close-btn");
 
 let userMessage;
-const API_KEY = "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"; //API_KEY generated from openAI/accounts website I created with another account
+const API_KEY = "ADD YOUR API KEY HERE"; //API_KEY generated from openAI/accounts website I created with another account
 const inputInitHeight= chatInput.scrollHeight;
 
 const createChatLi = (message, className) => {
